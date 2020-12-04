@@ -1,0 +1,12 @@
+.navigation {
+    background-color: rgb(252, 221, 207);
+}
+
+.main-link {
+    color: #C75240 !important;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Tulpen One", cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
