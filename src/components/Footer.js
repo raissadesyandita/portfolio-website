@@ -1,23 +1,18 @@
 import React from "react";
+import { Container } from "reactstrap";
 import "./Footer.css";
 
 
 const Footer = () => {
     return (
         <>
-        <div>
-            <span>
-                ::before
-                ::after
-            </span>
-            <span>
-                ::before
-                ::after
-            </span>
-        </div>
+        <Container
+            className="ending"
+        >
         <hr color="white" />
-        <div className="row">
-            <h6 className="col-sm">
+            <h6
+                className="copyright"
+            >
             <p
                 className="font-name">
                 RAISSA DESYANDITA
@@ -28,13 +23,7 @@ const Footer = () => {
             <br />
                 All right reserved.
             </h6>
-        </div>
-        {/* <div className="contact-modal-content">
-            <h4 className="no-line">Contact</h4>
-            <a href="mailto:raissadesyandita@gmail.com" className="huge-text underline-link js-cursor-follower-active">
-            <span>hello@raissadesyandita</span>
-            </a>
-        </div> */}
+        </Container>
         </>
     )
 }

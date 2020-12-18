@@ -1,11 +1,18 @@
-.row {
+.ending {
     font-size: 40px;
     font-family: "Odibee Sans", cursive;
     text-align: center;
+    height: 75px;
+    bottom: 0%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 
 .font-name {
     font-size: 50px;
+    flex-wrap: wrap-reverse;
+}
+
+.copyright {
+    text-align: center;
 }

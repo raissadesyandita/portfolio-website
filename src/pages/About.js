@@ -1,37 +1,55 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container, 
+    // Row, Col 
+} from "reactstrap";
 import "./Profile.css";
+import Photo from "../images/photo.jpeg";
 
 
 const About = () => {
     return (
         <>
-        <Container className="themed-container" fluid="lg">
-            <Row>
-                <Col lg={7}>
+        <Container             
+            className="themed-container" 
+            fluid={true}
+            style={{
+                height: "1000px",
+                backgroundColor: "black",
+                textAlign: "center",
+                justifyContent: "center",
+                alignItems: "center"
+                // transform: "translateY(50%)"
+            }}
+        >
+            {/* <Row>
+                <Col lg={7}> */}
                     <h1 
                         className="about-me">
-                        Raissa is a Junior FrontEnd Developer,
+                        Raissa Desyandita,
                         <br />
                         who always be curious learning many new things, especially on programming and design.
                     </h1>
                     <h3
                         className="about-me-">
-                        Currently based in Indonesia.
+                        Experienced with ReactJS, HTML, CSS, Bootstrap, Git. 
                     </h3>
-                </Col>
-                <Col lg={5}>
-                    {/* <img src="../images/favicon.png rounded" /> */}
+                {/* </Col>
+                <Col lg={5}> */}
+                    <img
+                        className="profile-pic" 
+                        src={Photo}
+                        alt="profile-pic"
+                    />
                     <p
                         className="about-me--">
-                        Raissa Desyandita
+                        Currently based in Surabaya, Indonesia.
                     </p>
-                    <button
+                    {/* <button
                         onClick
                         className="clicked"
                         href="mailto:raissadesyandita@gmail.com" >
                         Contact Me
-                    </button>
+                    </button> */}
                     <a
                         className="clicked btn btn-lg"
                         href="mailto:raissadesyandita@gmail.com"
@@ -39,8 +57,8 @@ const About = () => {
                     >
                         Contact Me
                     </a>
-                </Col>
-            </Row>
+                {/* </Col>
+            </Row> */}
         </Container>
         </>
     )

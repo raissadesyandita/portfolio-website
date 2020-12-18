@@ -9,8 +9,17 @@ const Contact = () => {
     return (
         <>
             <Container 
-                className="themed-container" 
-                fluid="lg"
+            className="themed-container" 
+            fluid={true}
+            style={{
+                height: "250px",
+                backgroundColor: "brown",
+                textAlign: "center",
+                justifyContent: "center",
+                alignItems: "center"
+                // bottom: "50%",
+                // transform: "translateY(50%)"
+            }}
             >
                 <h5
                     className="socmed-text">
