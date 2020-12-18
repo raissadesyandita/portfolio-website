@@ -19,6 +19,7 @@ const Contact = () => {
                 <a
                     href="https://www.linkedin.com/in/raissa-desyandita/"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <img
                         className="socmed-icon"
@@ -29,6 +30,7 @@ const Contact = () => {
                 <a
                     href="https://www.github.com/raissadesyandita/"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <img
                         className="socmed-icon"
@@ -39,6 +41,7 @@ const Contact = () => {
                 <a
                     href="https://t.me/@raissadt"
                     target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <img
                         className="socmed-icon"

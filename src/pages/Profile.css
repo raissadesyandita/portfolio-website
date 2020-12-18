@@ -1,9 +1,9 @@
 .about-me {
     color: brown;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: "Wire One", sans-serif;
-    /* font-family: 'Tulpen One', cursive; */
+    margin-top: 15%;
 }
 
 .about-me- {
@@ -13,5 +13,41 @@
     font-family: "Wire One", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+.about-me-- {
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Wire One", sans-serif;
+    margin-top: 15%;
+}
+
+.clicked {
+    background-color: brown;
+    border-color: white;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "wire One", sans-serif;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+
+
+
+
+.socmed-text {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.socmed-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@600&display=swap');
