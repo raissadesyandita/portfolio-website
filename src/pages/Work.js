@@ -9,15 +9,32 @@ const Work = () => {
             className="themed-container" 
             fluid={true}
             style={{
-                height: "1000px",
+                height: "1500px",
                 backgroundColor: "lightgray",
             }}
         >
+            <br />
+            <br />
+            <hr 
+                style={{
+                    borderColor: "50px solid lightgray"
+                }}
+            />
             <h2
-                className="project-title"
+                className="work-sub"
             >
                 Latest Project :
             </h2>
+            <h2
+                className="project-title"
+            >
+                FunD
+            </h2>
+            <h3
+                className="project-description"
+            >
+                A solution for funding expense
+            </h3>
             <h2
                 className="project-video"
             >

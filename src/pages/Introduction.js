@@ -26,6 +26,13 @@ const Introduction = () => {
             <h3 className="name-and-title">
                 i'm raissa, junior front end developer
             </h3>
+            <br />
+            <br />
+            <hr 
+                style={{
+                    borderColor: "50px solid lightgray"
+                }}
+            />
         </Container>
         </>
     )
