@@ -4,6 +4,7 @@ import { Container,
 } from "reactstrap";
 import "./Profile.css";
 import Photo from "../images/photo.jpeg";
+import Resume from "./resume.pdf";
 
 
 const About = () => {
@@ -39,7 +40,7 @@ const About = () => {
                         className="about-me--"
                     >
                         <a
-                            href="/resume.pdf"
+                            href={Resume}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
