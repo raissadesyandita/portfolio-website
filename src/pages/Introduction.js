@@ -12,10 +12,10 @@ const Introduction = () => {
             className="themed-container" 
             fluid={true}
             style={{
-                height: "800px",
-                backgroundColor: "yellow",
-                justifyContent: "center",
-                alignItems: "center",
+                height: "875px",
+                backgroundColor: "white",
+                // justifyContent: "center",
+                // alignItems: "center",
                 // bottom: "50%",
                 // transform: "translateY(50%)"
             }}

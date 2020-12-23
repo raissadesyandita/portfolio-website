@@ -34,7 +34,7 @@ const About = () => {
                     <h3
                         className="about-me-"
                     >
-                        Experienced with ReactJS, HTML, CSS, Bootstrap, Git. 
+                        Experienced with ReactJS, JavaScript, HTML, CSS, Bootstrap, Git, and Rest API. 
                     </h3>
                     <p
                         className="about-me--"
