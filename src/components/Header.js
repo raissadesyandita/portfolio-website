@@ -9,7 +9,7 @@ import {
     NavLink,
 } from "reactstrap";
 import "./Header.css";
-import favicon from "../images/favicon.png";
+import Favicon from "../images/favicon.png";
 
 
 const Header = (props) => {
@@ -25,9 +25,17 @@ const Header = (props) => {
                 expand="lg">
                 <NavbarBrand 
                     className="mr-auto"
-                    src={favicon}
-                    alt="logo">
-                    Raissa
+                >
+                    <img 
+                        src={Favicon}
+                        alt="logo"
+                        style={{
+                            width: "27.5px",
+                            height: "27.5px",
+                            marginLeft: "10px"
+                        }}
+                    />
+                    {/* RaissaDesyandita */}
                 </NavbarBrand>
                 <NavbarToggler 
                     onClick={toggle} 
@@ -35,7 +43,10 @@ const Header = (props) => {
                 <Collapse 
                     isOpen={isOpen} navbar>
                     <Nav
-                        className="ml-auto" navbar>
+                        className="ml-auto" 
+                        style={{marginRight: "10px"}} 
+                        navbar
+                    >
                         <NavItem>
                             <NavLink
                                 className="main-link"
@@ -49,7 +60,10 @@ const Header = (props) => {
                         <NavItem>
                             <NavLink
                                 className="main-link"
-                                href="/">Contact</NavLink>
+                                href="/"
+                            >
+                                Contact
+                            </NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
