@@ -4,6 +4,7 @@ import UpArrow from "../images/up-arrow.png";
 import Header from "../components/Header";
 import Introduction from "./Introduction";
 import About from "./About";
+import Work from "./Work";
 import Contact from "./Contact";
 import Footer from "../components/Footer";
 import "./Profile.css";
@@ -40,7 +41,7 @@ class Landing extends Component {
             <Header />
             <Introduction />
             <About />
-            {/* <Work> */}
+            <Work />
             <Contact />
             <Footer />
             </>

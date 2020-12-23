@@ -13,7 +13,7 @@ const Introduction = () => {
             fluid={true}
             style={{
                 height: "875px",
-                backgroundColor: "white",
+                backgroundColor: "lightgray",
                 // justifyContent: "center",
                 // alignItems: "center",
                 // bottom: "50%",

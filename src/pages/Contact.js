@@ -13,7 +13,7 @@ const Contact = () => {
             fluid={true}
             style={{
                 height: "250px",
-                backgroundColor: "brown",
+                backgroundColor: "lightgray",
                 textAlign: "center",
                 justifyContent: "center",
                 alignItems: "center"

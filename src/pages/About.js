@@ -15,7 +15,7 @@ const About = () => {
             fluid={true}
             style={{
                 height: "1000px",
-                backgroundColor: "black",
+                backgroundColor: "lightgrey",
                 textAlign: "center",
                 justifyContent: "center",
                 alignItems: "center"
