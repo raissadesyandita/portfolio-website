@@ -24,32 +24,38 @@ const About = () => {
             {/* <Row>
                 <Col lg={7}> */}
                     <h1 
-                        className="about-me">
+                        className="about-me"
+                    >
                         Raissa Desyandita,
                         <br />
-                        who always be curious learning many new things, especially on programming and design.
+                        who always be curious learning many new things, especially on web development programming.
                     </h1>
                     <h3
-                        className="about-me-">
+                        className="about-me-"
+                    >
                         Experienced with ReactJS, HTML, CSS, Bootstrap, Git. 
                     </h3>
-                {/* </Col>
-                <Col lg={5}> */}
+                    <p
+                        className="about-me--"
+                    >
+                        <a
+                            href="/resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            My full resume
+                        </a>
+                    </p>
                     <img
                         className="profile-pic" 
                         src={Photo}
                         alt="profile-pic"
                     />
                     <p
-                        className="about-me--">
+                        className="about-me--"
+                    >
                         Currently based in Surabaya, Indonesia.
                     </p>
-                    {/* <button
-                        onClick
-                        className="clicked"
-                        href="mailto:raissadesyandita@gmail.com" >
-                        Contact Me
-                    </button> */}
                     <a
                         className="clicked btn btn-lg"
                         href="mailto:raissadesyandita@gmail.com"
