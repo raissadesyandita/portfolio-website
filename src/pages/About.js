@@ -29,7 +29,7 @@ const About = () => {
                     >
                         Raissa Desyandita,
                         <br />
-                        who always be curious learning many new things, especially on web development programming.
+                        who will always be curious learning many new things, especially about web development programming.
                     </h1>
                     <h3
                         className="about-me-"

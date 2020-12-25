@@ -38,15 +38,15 @@
 }
 
 .about-me-- {
-    color: white;
+    color: black;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Wire One", sans-serif;
     /* margin-top: 15%; */
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 a:hover {
@@ -65,7 +65,7 @@ a:hover {
     border-color: white;
     color: white;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "wire One", sans-serif;
 }
 
