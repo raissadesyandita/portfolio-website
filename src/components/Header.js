@@ -10,6 +10,7 @@ import {
 } from "reactstrap";
 import "./Header.css";
 import Favicon from "../images/favicon.png";
+// import { Link } from "react-router-dom";
 
 
 const Header = (props) => {
@@ -50,19 +51,31 @@ const Header = (props) => {
                         <NavItem>
                             <NavLink
                                 className="main-link"
-                                href="/">Profile</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink
-                                className="main-link"
-                                href="/">Work</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink
-                                className="main-link"
-                                href="/"
+                                href="/about"
                             >
+                                {/* <Link to="/about"> */}
+                                Profile
+                                {/* </Link> */}
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink
+                                className="main-link"
+                                href="/work"
+                            >
+                                {/* <Link to="/work"> */}
+                                Work
+                                {/* </Link> */}
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink
+                                className="main-link"
+                                href="/contact"
+                            >
+                                {/* <Link to="/contact"> */}
                                 Contact
+                                {/* </Link> */}
                             </NavLink>
                         </NavItem>
                     </Nav>

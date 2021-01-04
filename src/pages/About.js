@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, 
+import { 
+    Container, 
     // Row, Col 
 } from "reactstrap";
 import "./Profile.css";

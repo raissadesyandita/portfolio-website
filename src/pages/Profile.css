@@ -73,38 +73,65 @@ a:hover {
 
 /* WORK */
 .work-sub {
-    color: white;
+    color:black;
     font-size: 60px;
     font-weight: 700;
     font-family: "Wire One", sans-serif;
     text-align: center;
     padding-top: 5%;
 }
-.project-title {
-    color:white;
-    font-size: 80px;
-    font-weight: 700;
-    font-family: "Wire One", sans-serif;
-    font-style: italic;
-    text-align: center;
-}
 
-.project-description {
-    color: white;
-    font-size: 60px;
+.popover-style {
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-family: "Wire One", sans-serif;
-    font-style: italic;
-    text-align: center;
-    padding-bottom: 5%;
 }
 
-.project-video {
-    color: white;
-    font-size: 80px;
-    font-weight: 700;
-    font-family: "Wire One", sans-serif;
+.project-title {
+    width: auto;
+    height: 300px;
+    align-items: center;
+    margin: 0px auto;
+    display: block;
+}
+
+.project-tagline {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
     text-align: center;
+}
+
+/* .project-description {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 50px 250px;
+} */
+
+.ui-design {
+    background-color: white;
+    margin: auto;
+    height: 425px;
+}
+
+.website-ui {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding-top: 10%;
+}
+
+.application-ui {
+    height: 400px;
+    width: auto;
+    margin: auto;
+    display: block;
+    padding-top: 5%;
 }
 
 
@@ -130,3 +157,4 @@ a:hover {
 /* Imported Link */
 @import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
